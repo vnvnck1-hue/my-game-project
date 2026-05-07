@@ -1,0 +1,34 @@
+# dependencies
+node_modules/
+
+# build / dev output
+dist/
+.vite/
+*.tsbuildinfo
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# editor / IDE
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# env / secrets
+.env
+.env.*
+!.env.example
+
+# misc
+*.local
