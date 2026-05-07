@@ -30,11 +30,11 @@ export interface CharacterBase {
 export const CLASS_DEFS: Record<CharacterClass, CharacterBase> = {
   warrior: {
     className: "warrior",
-    baseHp: 220,
+    baseHp: 440,
     baseAtk: 14,
     range: 30,
     attackInterval: 0.85,
-    speed: 105, // 가장 빠름 — 근접이라 적과 거리 빠르게 좁혀야 함
+    speed: 210, // 가장 빠름 — 근접 탱커라 적과 거리 신속히 좁힘
     preferredDistance: 0, // 붙어서 친다
     primary: "#e25656",
     secondary: "#ffd86b",

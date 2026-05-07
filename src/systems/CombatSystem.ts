@@ -23,7 +23,8 @@ export class CombatSystem {
       if (Math.sign(dx) !== c.facing && Math.abs(dx) > 6) continue;
       if (Math.abs(dx) > reach) continue;
       const dead = en.takeDamage(dmg);
-      en.knockbackX = c.facing * (dead ? 36 : 18);
+      const kbBase = dead ? 36 : 18;
+      en.knockbackX = c.facing * kbBase * (crit ? 3 : 1);
       hits++;
       lastTarget = en;
       spawnFloatingText(

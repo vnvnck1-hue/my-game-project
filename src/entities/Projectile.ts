@@ -99,7 +99,8 @@ export class Projectile {
     }
     const dmg = Math.round(this.damage);
     const dead = target.takeDamage(dmg);
-    target.knockbackX = (this.vx > 0 ? 1 : -1) * (dead ? 30 : 10);
+    const kbBase = dead ? 30 : 10;
+    target.knockbackX = (this.vx > 0 ? 1 : -1) * kbBase * (this.crit ? 3 : 1);
     spawnFloatingText(
       ctx.floatingTexts,
       target.x + (Math.random() - 0.5) * 6,
@@ -136,7 +137,8 @@ export class Projectile {
         const falloff = 1 - Math.min(1, Math.hypot(dx, dy) / r) * 0.4;
         const dmg = Math.round(this.damage * falloff);
         const dead = t.takeDamage(dmg);
-        t.knockbackX = (dx >= 0 ? 1 : -1) * (dead ? 28 : 14);
+        const kbBase = dead ? 28 : 14;
+        t.knockbackX = (dx >= 0 ? 1 : -1) * kbBase * (this.crit ? 3 : 1);
         spawnFloatingText(
           ctx.floatingTexts,
           t.x,

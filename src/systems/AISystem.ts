@@ -78,11 +78,11 @@ export class AISystem {
       return;
     }
 
-    // 적과의 같은 층 여부
+    // 적과의 같은 층 여부 — 층 이동은 한 번에 ±1층만 가능
     if (target.floor !== c.floor && s.floorSwitchCD <= 0) {
-      // 층 전환
+      const dir = Math.sign(target.floor - c.floor);
       s.jumpFromFloor = c.floor;
-      s.jumpToFloor = target.floor;
+      s.jumpToFloor = c.floor + dir; // 인접 층까지만
       s.jumpT = 0;
       s.floorSwitchCD = FLOOR_SWITCH_COOLDOWN;
       return;
@@ -161,8 +161,9 @@ export class AISystem {
     }
 
     if (target.floor !== e.floor && s.floorSwitchCD <= 0 && Math.random() < 0.6) {
+      const dir = Math.sign(target.floor - e.floor);
       s.jumpFromFloor = e.floor;
-      s.jumpToFloor = target.floor;
+      s.jumpToFloor = e.floor + dir; // 인접 층까지만
       s.jumpT = 0;
       s.floorSwitchCD = FLOOR_SWITCH_COOLDOWN + Math.random() * 0.5;
       return;
