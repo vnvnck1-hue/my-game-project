@@ -51,13 +51,13 @@
     "privacyScreen": {
       "x": 1450,
       "y": 393,
-      "width": 199,
+      "width": 220,
       "height": 280
     },
     "bunkRight": {
       "x": 1740,
       "y": 383,
-      "width": 286,
+      "width": 315,
       "height": 290
     },
     "character": {

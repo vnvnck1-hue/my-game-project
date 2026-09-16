@@ -222,8 +222,8 @@ function Remove-DetachedArtifacts {
 
             $componentWidth = $maxX - $minX + 1
             $componentHeight = $maxY - $minY + 1
-            $isTiny = $component.Count -lt 24
-            $isThinBar = (($componentHeight -le 6) -and ($componentWidth -ge 16)) -or (($componentWidth -le 6) -and ($componentHeight -ge 16))
+            $isTiny = $component.Count -lt 50
+            $isThinBar = (($componentHeight -le 16) -and ($componentWidth -ge 16)) -or (($componentWidth -le 16) -and ($componentHeight -ge 16))
             if ($isTiny -or $isThinBar) {
                 foreach ($index in $component) {
                     $x = $index % $width

@@ -5,7 +5,7 @@
 
 ## 실행
 
-- `run.bat` 실행 (WinGet 으로 설치된 Godot 4.7.2 mono 를 사용)
+- `run.bat` 실행 (WinGet 으로 설치된 Godot 4.7.2 mono 를 사용). 다른 PC 설치 방법은 `SETUP.md` 참고
 - 또는 Godot 에디터에서 이 폴더의 `project.godot` 을 열고 F5
 
 ## 조작
