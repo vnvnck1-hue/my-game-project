@@ -1,0 +1,70 @@
+{
+  "formatVersion": 1,
+  "theme": "Hydroponics",
+  "canvas": {
+    "width": 2304,
+    "height": 941
+  },
+  "roomOrigin": {
+    "x": 96,
+    "y": 184
+  },
+  "floorY": 670,
+  "constructionTileHeight": 560,
+  "floorFromTileBottom": 74,
+  "tileSequence": [
+    "cap_left",
+    "wall_a",
+    "wall_b",
+    "wall_c",
+    "wall_d",
+    "wall_c_mirror",
+    "wall_d_mirror",
+    "wall_repeat",
+    "cap_right"
+  ],
+  "placements": {
+    "growthTankNarrow": {
+      "x": 180,
+      "y": 293,
+      "width": 170,
+      "height": 380
+    },
+    "growthTankFull": {
+      "x": 420,
+      "y": 293,
+      "width": 171,
+      "height": 380
+    },
+    "growthTankTall": {
+      "x": 660,
+      "y": 293,
+      "width": 169,
+      "height": 380
+    },
+    "controlConsole": {
+      "x": 990,
+      "y": 493,
+      "width": 111,
+      "height": 180
+    },
+    "plantRack": {
+      "x": 1320,
+      "y": 433,
+      "width": 199,
+      "height": 240
+    },
+    "utilitySink": {
+      "x": 1830,
+      "y": 488,
+      "width": 125,
+      "height": 185
+    },
+    "character": {
+      "x": 1110,
+      "y": 431,
+      "width": 239,
+      "height": 245
+    }
+  }
+}

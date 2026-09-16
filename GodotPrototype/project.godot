@@ -1,0 +1,26 @@
+; Engine configuration file.
+; Godot 4.7 — 사이드뷰 작업실 방 이동 프로토타입
+
+config_version=5
+
+[application]
+
+config/name="Sideview Workshop Prototype"
+config/version="0.1.0"
+run/main_scene="res://scenes/Main.tscn"
+config/features=PackedStringArray("4.7", "Forward Plus")
+
+[display]
+
+; 리소스 원본 픽셀 크기(캐릭터 셀 320px, 타일 높이 560px)를 1:1 로 표시한다.
+window/size/viewport_width=1600
+window/size/viewport_height=900
+window/stretch/mode="canvas_items"
+window/stretch/aspect="keep"
+window/vsync/vsync_mode=1
+
+[rendering]
+
+; 청키 픽셀 유지 — Nearest 필터, 밉맵 없음
+textures/canvas_textures/default_texture_filter=0
+environment/defaults/default_clear_color=Color(0.0784, 0.0863, 0.1333, 1)

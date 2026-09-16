@@ -1,0 +1,301 @@
+{
+  "formatVersion": 1,
+  "character": "hooded_mechanic",
+  "facing": "right",
+  "sheet": "Sheets/hooded_mechanic_all_4x4_v1.png",
+  "layout": {
+    "columns": 4,
+    "rows": 4,
+    "cellWidth": 320,
+    "cellHeight": 320
+  },
+  "commonPivot": {
+    "x": 0.5,
+    "y": 0.0,
+    "description": "bottom-center ground pivot"
+  },
+  "clips": [
+    {
+      "name": "idle",
+      "frames": 4,
+      "suggestedFps": 4,
+      "loop": true
+    },
+    {
+      "name": "walk",
+      "frames": 4,
+      "suggestedFps": 8,
+      "loop": true
+    },
+    {
+      "name": "shoot",
+      "frames": 4,
+      "suggestedFps": 10,
+      "loop": false
+    },
+    {
+      "name": "crouch",
+      "frames": 4,
+      "suggestedFps": 6,
+      "loop": false
+    }
+  ],
+  "frames": [
+    {
+      "clip": "idle",
+      "frame": 1,
+      "file": "Frames/idle/idle_01.png",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 320
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.0
+      },
+      "baselineY": 319
+    },
+    {
+      "clip": "idle",
+      "frame": 2,
+      "file": "Frames/idle/idle_02.png",
+      "rect": {
+        "x": 320,
+        "y": 0,
+        "width": 320,
+        "height": 320
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.0
+      },
+      "baselineY": 319
+    },
+    {
+      "clip": "idle",
+      "frame": 3,
+      "file": "Frames/idle/idle_03.png",
+      "rect": {
+        "x": 640,
+        "y": 0,
+        "width": 320,
+        "height": 320
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.0
+      },
+      "baselineY": 319
+    },
+    {
+      "clip": "idle",
+      "frame": 4,
+      "file": "Frames/idle/idle_04.png",
+      "rect": {
+        "x": 960,
+        "y": 0,
+        "width": 320,
+        "height": 320
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.0
+      },
+      "baselineY": 319
+    },
+    {
+      "clip": "walk",
+      "frame": 1,
+      "file": "Frames/walk/walk_01.png",
+      "rect": {
+        "x": 0,
+        "y": 320,
+        "width": 320,
+        "height": 320
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.0
+      },
+      "baselineY": 319
+    },
+    {
+      "clip": "walk",
+      "frame": 2,
+      "file": "Frames/walk/walk_02.png",
+      "rect": {
+        "x": 320,
+        "y": 320,
+        "width": 320,
+        "height": 320
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.0
+      },
+      "baselineY": 319
+    },
+    {
+      "clip": "walk",
+      "frame": 3,
+      "file": "Frames/walk/walk_03.png",
+      "rect": {
+        "x": 640,
+        "y": 320,
+        "width": 320,
+        "height": 320
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.0
+      },
+      "baselineY": 319
+    },
+    {
+      "clip": "walk",
+      "frame": 4,
+      "file": "Frames/walk/walk_04.png",
+      "rect": {
+        "x": 960,
+        "y": 320,
+        "width": 320,
+        "height": 320
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.0
+      },
+      "baselineY": 319
+    },
+    {
+      "clip": "shoot",
+      "frame": 1,
+      "file": "Frames/shoot/shoot_01.png",
+      "rect": {
+        "x": 0,
+        "y": 640,
+        "width": 320,
+        "height": 320
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.0
+      },
+      "baselineY": 319
+    },
+    {
+      "clip": "shoot",
+      "frame": 2,
+      "file": "Frames/shoot/shoot_02.png",
+      "rect": {
+        "x": 320,
+        "y": 640,
+        "width": 320,
+        "height": 320
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.0
+      },
+      "baselineY": 319
+    },
+    {
+      "clip": "shoot",
+      "frame": 3,
+      "file": "Frames/shoot/shoot_03.png",
+      "rect": {
+        "x": 640,
+        "y": 640,
+        "width": 320,
+        "height": 320
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.0
+      },
+      "baselineY": 319
+    },
+    {
+      "clip": "shoot",
+      "frame": 4,
+      "file": "Frames/shoot/shoot_04.png",
+      "rect": {
+        "x": 960,
+        "y": 640,
+        "width": 320,
+        "height": 320
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.0
+      },
+      "baselineY": 319
+    },
+    {
+      "clip": "crouch",
+      "frame": 1,
+      "file": "Frames/crouch/crouch_01.png",
+      "rect": {
+        "x": 0,
+        "y": 960,
+        "width": 320,
+        "height": 320
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.0
+      },
+      "baselineY": 319
+    },
+    {
+      "clip": "crouch",
+      "frame": 2,
+      "file": "Frames/crouch/crouch_02.png",
+      "rect": {
+        "x": 320,
+        "y": 960,
+        "width": 320,
+        "height": 320
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.0
+      },
+      "baselineY": 319
+    },
+    {
+      "clip": "crouch",
+      "frame": 3,
+      "file": "Frames/crouch/crouch_03.png",
+      "rect": {
+        "x": 640,
+        "y": 960,
+        "width": 320,
+        "height": 320
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.0
+      },
+      "baselineY": 319
+    },
+    {
+      "clip": "crouch",
+      "frame": 4,
+      "file": "Frames/crouch/crouch_04.png",
+      "rect": {
+        "x": 960,
+        "y": 960,
+        "width": 320,
+        "height": 320
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.0
+      },
+      "baselineY": 319
+    }
+  ]
+}

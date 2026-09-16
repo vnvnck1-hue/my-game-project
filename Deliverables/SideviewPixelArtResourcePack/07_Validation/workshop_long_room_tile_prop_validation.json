@@ -1,0 +1,68 @@
+{
+  "formatVersion": 1,
+  "sourceBackground": "Assets/Generated/Environments/workshop_empty_background_plate_v1.png",
+  "canvas": {
+    "width": 2304,
+    "height": 941
+  },
+  "roomOrigin": {
+    "x": 96,
+    "y": 184
+  },
+  "floorY": 670,
+  "constructionTileHeight": 560,
+  "tileSequence": [
+    "workshop_cap_left",
+    "workshop_wall_a",
+    "workshop_wall_b",
+    "workshop_wall_c",
+    "workshop_wall_d",
+    "workshop_wall_c_mirror",
+    "workshop_wall_d_mirror",
+    "workshop_wall_c",
+    "workshop_cap_right"
+  ],
+  "connectorTypes": {
+    "frontDoor": "Assets/GameReady/Connectors/front_bulkhead_door_game_scale.png",
+    "sideWallDoorClosed": "Assets/GameReady/Connectors/sidewall_shutter_closed_edge_game_scale.png",
+    "sideWallDoorOpen": "Assets/GameReady/Connectors/sidewall_shutter_open_frame_game_scale.png"
+  },
+  "placements": {
+    "frontDoor": {
+      "X": 1120,
+      "Y": 364,
+      "Width": 315,
+      "Height": 330
+    },
+    "locker": {
+      "X": 250,
+      "Y": 358,
+      "Width": 370,
+      "Height": 315
+    },
+    "workbench": {
+      "X": 650,
+      "Y": 438,
+      "Width": 443,
+      "Height": 235
+    },
+    "armchair": {
+      "X": 1510,
+      "Y": 433,
+      "Width": 286,
+      "Height": 240
+    },
+    "character": {
+      "X": 1840,
+      "Y": 431,
+      "Width": 239,
+      "Height": 245
+    },
+    "sideWallDoor": {
+      "X": 2037,
+      "Y": 198,
+      "Width": 343,
+      "Height": 480
+    }
+  }
+}
