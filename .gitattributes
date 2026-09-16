@@ -1,0 +1,24 @@
+# 여러 PC(Windows 설정 차이)를 오가도 줄바꿈이 흔들리지 않게 고정
+* text=auto
+
+# Godot 텍스트 리소스는 LF 고정
+*.gd text eol=lf
+*.tscn text eol=lf
+*.tres text eol=lf
+*.godot text eol=lf
+*.import text eol=lf
+*.cfg text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+
+# Windows 배치 파일은 CRLF 여야 cmd 가 안정적으로 파싱한다
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 바이너리
+*.png binary
+*.jpg binary
+*.zip binary
+*.wav binary
+*.ogg binary
+*.ttf binary

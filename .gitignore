@@ -1,0 +1,17 @@
+# Godot 임포트 캐시 (PC별, 첫 실행 시 자동 생성)
+.godot/
+*.import.tmp
+
+# 내보내기 결과물 / 임시
+GodotPrototype/export/
+GodotPrototype/*.tmp
+
+# OS / 편집기
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+
+# Claude Code 로컬 설정
+.claude/settings.local.json
